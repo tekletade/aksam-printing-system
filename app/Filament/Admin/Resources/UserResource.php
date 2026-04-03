@@ -18,7 +18,7 @@ use Filament\Tables\Columns\BadgeColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Illuminate\Support\Facades\Hash;
 use Spatie\Permission\Models\Role;
-
+// use Spatie\Permission\Models\Permission;
 class UserResource extends Resource
 {
     protected static ?string $model = User::class;
